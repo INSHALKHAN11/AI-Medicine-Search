@@ -1,0 +1,23 @@
+[
+  {
+    "name":"Dolo 650",
+    "generic":"Paracetamol",
+    "uses":"Fever and pain relief",
+    "manufacturer":"Micro Labs",
+    "image":"dolo650.jpg"
+  },
+  {
+    "name":"Azithral 500",
+    "generic":"Azithromycin",
+    "uses":"Bacterial infections",
+    "manufacturer":"Alembic",
+    "image":"azithral500.jpg"
+  },
+  {
+    "name":"Augmentin 625",
+    "generic":"Amoxicillin + Clavulanic Acid",
+    "uses":"Bacterial infections",
+    "manufacturer":"GSK",
+    "image":"augmentin625.jpg"
+  }
+]

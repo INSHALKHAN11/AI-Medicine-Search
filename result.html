@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Result</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+{% if medicine %}
+
+<div class="card">
+
+<h2>{{ medicine.name }}</h2>
+
+<img src="{{ url_for('static', filename='images/' + medicine.image) }}">
+
+<p>
+<b>Generic Name:</b>
+{{ medicine.generic }}
+</p>
+
+<p>
+<b>Uses:</b>
+{{ medicine.uses }}
+</p>
+
+<p>
+<b>Manufacturer:</b>
+{{ medicine.manufacturer }}
+</p>
+
+<hr>
+
+<h3>Export Information</h3>
+
+<p><b>Country:</b> {{ country }}</p>
+
+<p><b>Status:</b></p>
+
+{% if export_status == "Eligible" %}
+<p class="success">Eligible</p>
+{% else %}
+<p class="danger">Not Eligible</p>
+{% endif %}
+
+<h4>Required Documents</h4>
+
+<ul>
+{% for doc in documents %}
+<li>{{ doc }}</li>
+{% endfor %}
+</ul>
+
+<hr>
+
+<h3>AI Explanation</h3>
+
+<p>{{ summary }}</p>
+
+</div>
+
+{% else %}
+
+<div class="card">
+<h2>Medicine Not Found</h2>
+</div>
+
+{% endif %}
+
+<br>
+
+<a href="/">Search Again</a>
+
+</div>
+
+</body>
+
+</html>
