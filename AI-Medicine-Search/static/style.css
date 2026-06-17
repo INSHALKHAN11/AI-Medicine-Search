@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    padding:40px;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    background:rgb(247, 218, 3);
+    padding:30px;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+}
+
+input{
+    width:70%;
+    padding:12px;
+}
+
+button{
+    padding:12px 20px;
+    cursor:pointer;
+}
+
+.card{
+    background:#fafafa;
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+.success{
+    color:green;
+}
+
+.danger{
+    color:red;
+}
+
+a{
+    text-decoration:none;
+    background:#007bff;
+    color:white;
+    padding:10px 15px;
+    border-radius:5px;
+}

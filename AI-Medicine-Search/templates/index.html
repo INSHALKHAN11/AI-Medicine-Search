@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Medicine Search</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Medicine Information Search</h1>
+
+<form action="/search" method="POST">
+
+<input
+type="text"
+name="medicine"
+placeholder="Enter Medicine Name">
+
+<select name="country">
+
+<option>Nigeria</option>
+
+<option>Kenya</option>
+
+<option>UAE</option>
+
+</select>
+
+<button type="submit">Search</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

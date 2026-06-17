@@ -1,0 +1,36 @@
+{
+  "Nigeria": {
+    "medicines": [
+      "Paracetamol",
+      "Azithromycin"
+    ],
+    "documents": [
+      "Commercial Invoice",
+      "Packing List",
+      "Certificate of Analysis"
+    ]
+  },
+
+  "Kenya": {
+    "medicines": [
+      "Paracetamol"
+    ],
+    "documents": [
+      "Commercial Invoice",
+      "Packing List"
+    ]
+  },
+
+  "UAE": {
+    "medicines": [
+      "Paracetamol",
+      "Azithromycin",
+      "Amoxicillin + Clavulanic Acid"
+    ],
+    "documents": [
+      "Commercial Invoice",
+      "Packing List",
+      "Certificate of Pharmaceutical Product"
+    ]
+  }
+}
